@@ -1,0 +1,1 @@
+Code taken from the TodoCognitive app demo from the Xamarin Documentation and edited here and there

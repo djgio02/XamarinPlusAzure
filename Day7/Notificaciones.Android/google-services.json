@@ -1,0 +1,35 @@
+{
+  "project_info": {
+    "project_number": "294474654556",
+    "firebase_url": "https://xamarintraining-19d68.firebaseio.com",
+    "project_id": "xamarintraining-19d68",
+    "storage_bucket": "xamarintraining-19d68.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:294474654556:android:998ce6e7b4dd0736",
+        "android_client_info": {
+          "package_name": "io.torib.Notificaciones"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA187PSEvA5mfb_mArvlwvWmhyN8E0bE58"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "294474654556-5ljtscb029nap44jh13s16u80hb7lmrm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

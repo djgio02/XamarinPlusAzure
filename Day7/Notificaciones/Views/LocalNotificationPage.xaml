@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="Notificaciones.Views.LocalNotificationPage"
+    Title="Local Notifications">
+    <ContentPage.Content>
+        <StackLayout VerticalOptions="CenterAndExpand" HorizontalOptions="FillAndExpand">
+            <Button Text="Show notification now" Clicked="Handle_Clicked"></Button>
+            <Button Text="Show notification in 5 seconds" Clicked="Handle_Clicked_1"></Button>
+            <Button Text="Cancel Notification" Clicked="Handle_Clicked_2"></Button>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
