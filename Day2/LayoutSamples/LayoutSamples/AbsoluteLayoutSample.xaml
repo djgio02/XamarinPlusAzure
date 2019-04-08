@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+             x:Class="LayoutSamples.AbsoluteLayoutSample"
+             Title = "AbsoluteLayoutSample Page"
+             BackgroundColor="#f0f8ff">
+    <ContentPage.Content>
+        <AbsoluteLayout HorizontalOptions="CenterAndExpand" Padding="15,20">
+            <Image Source="Credit_Card" AbsoluteLayout.LayoutFlags="PositionProportional"/>
+            <Label AbsoluteLayout.LayoutBounds=".10,.21,60,30" AbsoluteLayout.LayoutFlags="XProportional,YProportional" Text="1111" Style="{StaticResource CCLabels}" />
+            <Label AbsoluteLayout.LayoutBounds=".35,.21,60,30" AbsoluteLayout.LayoutFlags="XProportional,YProportional" Text="2222" Style="{StaticResource CCLabels}" />
+            <Label AbsoluteLayout.LayoutBounds=".60,.21,60,30" AbsoluteLayout.LayoutFlags="XProportional,YProportional" Text="3333" Style="{StaticResource CCLabels}" />
+            <Label AbsoluteLayout.LayoutBounds=".85,.21,60,30" AbsoluteLayout.LayoutFlags="XProportional,YProportional" Text="4444" Style="{StaticResource CCLabels}" />
+        </AbsoluteLayout>
+    </ContentPage.Content>
+</ContentPage>

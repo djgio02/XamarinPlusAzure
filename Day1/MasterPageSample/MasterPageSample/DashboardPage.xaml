@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+             x:Class="MasterPageSample.DashboardPage">
+    <ContentPage.Content>
+        <StackLayout Orientation="Vertical" HorizontalOptions="Center" VerticalOptions="Center" Padding="25">
+                   <Image Source="Slide1" Style="{StaticResource ImageWTStyle}"/>
+                   <Label Text="Learning Together" Style="{StaticResource HeaderWTStyle}"/>
+                   <Label Text="We help your children to learn in a funny way" Margin="25" Style="{StaticResource DescriptionWTStyle}"/>
+                   <Button  Text="START TO LEARN" Style="{StaticResource BtnGetStartedStyle}" Command="{Binding OpenLoginCommand}" />
+         </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

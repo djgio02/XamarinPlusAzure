@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MasterDetailPage xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+             xmlns:local="clr-namespace:MasterPageSample" 
+             x:Class="MasterPageSample.MainPage">
+
+  <MasterDetailPage.Master>
+          <ContentPage Title="Menu" BackgroundColor="Black" Icon="menuButton">
+         
+            <StackLayout Orientation="Vertical">
+
+                 <Image Source="User" Style="{StaticResource ImageProfileStyle}"/>
+                                        
+                 <Label Text="Juan Perez"  Style="{StaticResource ProfileNameStyle}" />
+                 <StackLayout Orientation="Horizontal" Style="{StaticResource LastLoginProfileStyle}">
+                         <Label Text="Last Login  " TextColor="#52BEFF"/>
+                         <Label Text="Jun 31, 2019"  TextColor="White"/>  
+                 </StackLayout>  
+
+                 <Label Grid.Column="1" Text="Look &amp; Feel" Style="{StaticResource MenuDetailStyle}"/>
+                 <Label Grid.Column="1" Text="Settings"  Style="{StaticResource MenuDetailStyle}"/>
+                 <Label Grid.Column="1" Text="Log out"  Style="{StaticResource MenuDetailStyle}"/>
+                              
+            </StackLayout>
+       
+          </ContentPage>
+        </MasterDetailPage.Master>
+
+       <MasterDetailPage.Detail>
+        <NavigationPage>
+          <x:Arguments>
+                <local:DashboardPage />
+            </x:Arguments> 
+        </NavigationPage>
+    </MasterDetailPage.Detail>
+</MasterDetailPage>

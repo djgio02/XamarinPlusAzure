@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Application xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="CarouselPageSample.App">
+    <Application.Resources>
+           <Style x:Key="HeaderWTStyle" TargetType="Label"> 
+                <Setter Property = "FontSize"           Value="20" />  
+                <Setter Property = "TextColor"          Value="White" />
+                <Setter Property = "HorizontalOptions"  Value="CenterAndExpand" />     
+                <Setter Property = "FontAttributes"     Value="Bold" />    
+            </Style>  
+            
+             <Style x:Key="ImageWTStyle" TargetType="Image"> 
+                <Setter Property = "VerticalOptions"   Value="CenterAndExpand" />  
+                <Setter Property = "HeightRequest"     Value="150" />
+                <Setter Property = "WidthRequest"      Value="60" />     
+                <Setter Property = "Margin"            Value="0,40" />    
+            </Style> 
+            
+              <Style x:Key="DescriptionWTStyle" TargetType="Label"> 
+                <Setter Property = "HorizontalTextAlignment"   Value="Center" />  
+                <Setter Property = "TextColor"     Value="White" />
+                <Setter Property = "FontSize"      Value="15" />         
+            </Style>  
+
+            <Style x:Key="BtnGetStartedStyle" TargetType="Button"> 
+                <Setter Property = "BackgroundColor"      Value="#52BEFF" />  
+                <Setter Property = "TextColor"            Value="White" /> 
+                <Setter Property = "VerticalOptions"      Value="End" />  
+                <Setter Property = "HorizontalOptions"    Value="Center" /> 
+                <Setter Property = "WidthRequest"         Value="255" />  
+            </Style>  
+        
+    </Application.Resources>
+</Application>

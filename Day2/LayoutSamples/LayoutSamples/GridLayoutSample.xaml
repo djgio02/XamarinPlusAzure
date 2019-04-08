@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+             Title="GridLayout Sample"
+             x:Class="LayoutSamples.GridLayoutSample">
+    <ContentPage.Content>
+       <Grid HorizontalOptions="FillAndExpand" RowSpacing="0" ColumnSpacing="0">
+          <Grid.RowDefinitions>
+             <RowDefinition Height="200" />      
+             <RowDefinition Height="*" />    
+             <RowDefinition Height="*" />    
+             <RowDefinition Height="*" />    
+             <RowDefinition Height="*" />    
+             <RowDefinition Height="*" />    
+          </Grid.RowDefinitions> 
+
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+
+            
+            <Label Grid.Row="0" Grid.ColumnSpan="4" BackgroundColor="Black" />
+
+            <Label Grid.Row="1" Grid.Column="0"  Text="C"   Style="{StaticResource CalculatorLigthStyle}"/>
+            <Label Grid.Row="1" Grid.Column="1"  Text="+/-" Style="{StaticResource CalculatorLigthStyle}"/>
+            <Label Grid.Row="1" Grid.Column="2"  Text="%"   Style="{StaticResource CalculatorLigthStyle}"/>
+            <Label Grid.Row="1" Grid.Column="3"  Text="/"   Style="{StaticResource CalculatorDarkStyle}"/>          
+
+            <Label Grid.Row="2" Grid.Column="0"  Text="7" Style="{StaticResource CalculatorLigthStyle}"/>
+            <Label Grid.Row="2" Grid.Column="1"  Text="8" Style="{StaticResource CalculatorLigthStyle}" />
+            <Label Grid.Row="2" Grid.Column="2"  Text="9" Style="{StaticResource CalculatorLigthStyle}"/>
+            <Label Grid.Row="2" Grid.Column="3"  Text="x" Style="{StaticResource CalculatorDarkStyle}"/>
+
+            <Label Grid.Row="3" Grid.Column="0"  Text="4" Style="{StaticResource CalculatorLigthStyle}"/>
+            <Label Grid.Row="3" Grid.Column="1"  Text="5" Style="{StaticResource CalculatorLigthStyle}"/>
+            <Label Grid.Row="3" Grid.Column="2"  Text="6" Style="{StaticResource CalculatorLigthStyle}"/>
+            <Label Grid.Row="3" Grid.Column="3"  Text="-" Style="{StaticResource CalculatorDarkStyle}"/>
+
+            <Label Grid.Row="4" Grid.Column="0"  Text="1" Style="{StaticResource CalculatorLigthStyle}"/>
+            <Label Grid.Row="4" Grid.Column="1"  Text="2" Style="{StaticResource CalculatorLigthStyle}"/>
+            <Label Grid.Row="4" Grid.Column="2"  Text="3" Style="{StaticResource CalculatorLigthStyle}"/>
+            <Label Grid.Row="4" Grid.Column="3"  Text="+" Style="{StaticResource CalculatorDarkStyle}"/>
+
+            <Label Grid.Row="5" Grid.Column="0" Grid.ColumnSpan="2" Text="0" Style="{StaticResource CalculatorLigthStyle}"/> 
+            <Label Grid.Row="5" Grid.Column="2" Text="." Style="{StaticResource CalculatorLigthStyle}"/>
+            <Label Grid.Row="5" Grid.Column="3" Text="=" Style="{StaticResource CalculatorDarkStyle}"/>
+            
+       </Grid>
+    </ContentPage.Content>
+</ContentPage>

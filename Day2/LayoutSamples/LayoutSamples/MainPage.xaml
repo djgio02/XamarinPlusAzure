@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:local="clr-namespace:LayoutSamples" x:Class="LayoutSamples.MainPage">
+<ScrollView>
+    <StackLayout Padding="0,60,0,0">
+       <Button Text="StackLayout and ScrollLayout" Style="{StaticResource BtnStyle}" Clicked="StackLayout_Clicked" />
+       <Button Text="AbsoluteLayout" Style="{StaticResource BtnStyle}" Clicked="AbsoluteLayout_Clicked" />
+       <Button Text="GridLayout" Style="{StaticResource BtnStyle}" Clicked="GridLayout_Clicked"/>
+       <Button Text="FlexLayout" Style="{StaticResource BtnStyle}" Clicked="FlexLayout_Clicked" />
+    </StackLayout>
+</ScrollView>        
+</ContentPage>

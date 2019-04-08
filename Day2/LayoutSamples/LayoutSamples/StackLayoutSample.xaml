@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+             Title = "StackLayoutSample Page"
+             x:Class="LayoutSamples.StackLayoutSample">
+    <ContentPage.Content> 
+        <ScrollView>
+            <StackLayout Spacing="0" Orientation="Vertical" Padding="10,30" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" BackgroundColor="#f0f8ff">
+
+                <StackLayout Orientation="Vertical" BackgroundColor="#81dfbb" HorizontalOptions="FillAndExpand">
+                    <Image Source="Slide2"/>
+                </StackLayout> 
+
+                <StackLayout Orientation="Vertical" BackgroundColor="#8761e8" HorizontalOptions="FillAndExpand">
+                     <Image Source="Education"/>
+                </StackLayout>
+
+                <StackLayout Orientation="Vertical" BackgroundColor="#f3ba3d" HorizontalOptions="FillAndExpand">
+                     <Image Source="Slide1"/>
+                </StackLayout> 
+
+                <StackLayout Orientation="Vertical" BackgroundColor="#fec7da" HorizontalOptions="FillAndExpand"> 
+                      <Image Source="Sun"/> 
+                </StackLayout>
+
+                <StackLayout Orientation="Vertical" BackgroundColor="#ffb1cd" HorizontalOptions="FillAndExpand"> 
+                      <Image Source="Cloud"/> 
+                </StackLayout>
+
+                <StackLayout Orientation="Vertical" BackgroundColor="#8761e8" HorizontalOptions="FillAndExpand"> 
+                      <Image Source="Login"/> 
+                </StackLayout>
+
+                <StackLayout Orientation="Vertical" BackgroundColor="#81dfbb" HorizontalOptions="FillAndExpand"> 
+                      <Image Source="User"/> 
+                </StackLayout>
+     
+           </StackLayout>  
+         </ScrollView>     
+    </ContentPage.Content>
+</ContentPage>
